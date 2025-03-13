@@ -7,13 +7,10 @@ A macOS application that automatically reconnects to your college WiFi network a
 Got tired of constantly having to re-login to my college WiFi every time my laptop went to sleep. This app sits in your menu bar, monitors your connection, and handles all the authentication for you. No more login prompts!
 
 ## Features
+Automatically reconnects to your configured WiFi network
+Handles web authentication (captive portal login) 
+Lives in your macOS menu bar for easy access
 
-- 🔄 Automatically reconnects to your configured WiFi network
-- 🔑 Handles web authentication (captive portal login) 
-- 🔔 Lives in your macOS menu bar for easy access
-- ⚙️ Simple configuration UI
-- 🚀 Can start automatically at login
-- 📊 Logging for troubleshooting
 
 ## Requirements
 
@@ -25,7 +22,7 @@ Got tired of constantly having to re-login to my college WiFi every time my lapt
 
 ### Option 1: Download the app
 
-1. Go to the [Releases](https://github.com/yourusername/college-wifi-reconnector/releases) page
+1. Go to the [Releases](https://github.com/yourusername/school-wifi-reconnector/releases) page
 2. Download the latest `.dmg` file
 3. Open the `.dmg` and drag the app to your Applications folder
 
@@ -65,11 +62,11 @@ Got tired of constantly having to re-login to my college WiFi every time my lapt
 ## How It Works
 
 This app uses a combination of:
-- macOS networking commands to monitor and connect to WiFi
-- Selenium with ChromeDriver to handle web authentication
-- A background thread to periodically check connection status
-- Tkinter for the configuration UI
-- Rumps for the macOS menu bar integration
+ macOS networking commands to monitor and connect to WiFi
+ Selenium with ChromeDriver to handle web authentication
+A background thread to periodically check connection status
+Tkinter for the configuration UI
+Rumps for the macOS menu bar integration
 
 ## Troubleshooting
 
