@@ -1,4 +1,4 @@
-# College WiFi Reconnector
+# School WiFi Reconnector
 
 A macOS application that automatically reconnects to your college WiFi network and handles web authentication. Perfect for schools with captive portals that require frequent logins.
 
