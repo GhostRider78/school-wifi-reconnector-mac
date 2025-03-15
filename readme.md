@@ -72,7 +72,7 @@ Rumps for the macOS menu bar integration
 
 If you encounter issues:
 
-1. Check the logs at `~/Library/Logs/wifi_reconnector.log`
+1. Check the logs at `~/Library/Logs/school-wifi-reconnector.log`
 2. Make sure your WiFi name exactly matches what's shown in your network preferences
 3. Verify your login URL, username, and password are correct
 4. Try the "Test Connection" button from the settings window
